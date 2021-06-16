@@ -4,7 +4,7 @@ set encoding=utf-8
 colorscheme elflord
 
 syntax enable
-filetype plugin on
+filetype plugin indent on
 
 set path+=**
 
@@ -20,7 +20,6 @@ set colorcolumn=80
 highlight ColorColumn ctermbg=darkgray
 
 set autoindent
-set cindent
 set linebreak
 set number
 set ruler
